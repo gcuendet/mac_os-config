@@ -11,6 +11,10 @@ IFS=$'\n\t'
 # Homebrew
 export HOMEBREW_CURL_RETRIES=3
 
+# Basic settings
+export mac_os_label="gabriel-mbp"
+export mac_os_name="gabriel-mbp"
+
 # Ruby
 export MRI=2.6.5
 
@@ -69,7 +73,11 @@ export SUBLIME_URL_HANDLER_APP_NAME="SublHandler.app"
 export SUBLIME_URL_HANDLER_APP_URL="https://github.com/downloads/asuth/subl-handler/SublHandler.zip"
 
 # Application Extensions
-export VIM_EXTENSION_ROOT="$HOME/.vim/bundle"
+export CSL_REPO_URL="https://github.com/citation-style-language/styles.git"
+export CSL_INSTALL_PATH="$HOME/.csl"
+export VIM_EXTENSION_ROOT="$HOME/.vim/pack/gabriel/start"
+export VIM_AIRLINE_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-airline"
+export VIM_AIRLINE_EXTENSION_URL="https://github.com/vim-airline/vim-airline.git"
 export VIM_BLOCKLE_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-blockle"
 export VIM_BLOCKLE_EXTENSION_URL="https://github.com/tpope/vim-bundler"
 export VIM_BUNDLER_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-bundler"
@@ -88,11 +96,19 @@ export VIM_RAILS_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-rails"
 export VIM_RAILS_EXTENSION_URL="https://github.com/tpope/vim-rails.git"
 export VIM_RUBY_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-ruby"
 export VIM_RUBY_EXTENSION_URL="https://github.com/vim-ruby/vim-ruby.git"
+export VIM_SNIPPETS_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-snippets"
+export VIM_SNIPPETS_EXTENSION_URL="https://github.com/honza/vim-snippets.git"
 export VIM_SPLITJOIN_EXTENSION_PATH="$VIM_EXTENSION_ROOT/splitjoin"
 export VIM_SPLITJOIN_EXTENSION_URL="https://github.com/AndrewRadev/splitjoin.vim.git"
+export VIM_SUPERTAB_EXTENSION_PATH="$VIM_EXTENSION_ROOT/supertab"
+export VIM_SUPERTAB_EXTENSION_URL="https://github.com/ervandew/supertab.git"
 export VIM_TEXT_OBJECT_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-textobj-user"
 export VIM_TEXT_OBJECT_EXTENSION_URL="https://github.com/kana/vim-textobj-user.git"
 export VIM_TEXT_OBJECT_RUBY_BLOCK_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-textobj-rubyblock"
 export VIM_TEXT_OBJECT_RUBY_BLOCK_EXTENSION_URL="https://github.com/nelstrom/vim-textobj-rubyblock.git"
+export VIM_ULTISNIPS_EXTENSION_PATH="$VIM_EXTENSION_ROOT/ultisnips"
+export VIM_ULTISNIPS_EXTENSION_URL="https://github.com/SirVer/ultisnips.git"
 export VIM_UNIMPAIRED_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-unimpaired"
 export VIM_UNIMPAIRED_EXTENSION_URL="https://github.com/tpope/vim-unimpaired.git"
+export VIM_YOUCOMPLETEME_EXTENSION_PATH="$VIM_EXTENSION_ROOT/youcompleteme"
+export VIM_YOUCOMPLETEME_EXTENSION_URL="https://github.com/Valloric/YouCompleteMe.git"
