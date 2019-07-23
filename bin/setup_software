@@ -8,6 +8,7 @@
 
 # Oh-my-Zsh
 chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Homebrew
 (
@@ -17,10 +18,12 @@ chsh -s $(which zsh)
 
 # Sublime Text
 if [ ! -e "/usr/bin/sublime" ]; then
-  sudo ln -sv "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+  if [ -e "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ]; then
+    sudo ln -sv "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+  fi
 fi
 
 # Dotfiles
-rm -f $HOME/.zshrc
-install_git_project "https://github.com/bkuhlmann/dotfiles.git" $REPO_DOTFILES "dotfiles" "bin/run i"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/gcuendet/dotfiles/master/.install_dotfiles.sh)"
+
 source $HOME/.zshrc

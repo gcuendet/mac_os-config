@@ -85,7 +85,7 @@ printf "Finder - Display full POSIX path as window title\n"
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
 printf "Finder - Use column view in all Finder windows\n"
-defaults write com.apple.finder FXPreferredViewStyle -string "clsv"
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
 printf "Finder - Disable the warning before emptying the Trash\n"
 defaults write com.apple.finder WarnOnEmptyTrash -bool false
