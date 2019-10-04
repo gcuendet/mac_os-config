@@ -20,6 +20,7 @@ brew cask install macvim
 brew cask install mendeley
 brew cask install numi
 brew cask install onyx
+brew cask install qlstephen
 brew cask install sublime-text
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
