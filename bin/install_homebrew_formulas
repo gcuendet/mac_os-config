@@ -52,6 +52,8 @@ brew install pandoc
 brew install parallel
 brew install pigz
 brew install prettyping
+brew install pyenv
+brew install pyenv-virtualenv
 brew install ranger
 brew install reattach-to-user-namespace
 brew install redis
@@ -69,5 +71,6 @@ brew install vim
 brew install watch
 brew install wrk
 brew install yank
+brew install yarn
 brew install zsh
 brew install zsh-completions

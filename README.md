@@ -110,6 +110,7 @@ project not be to your liking, feel free to fork and customize for your specific
     - [Zsh Completion](https://github.com/zsh-users/zsh-completions)
 - Downloads, installs, and configures [Homebrew Cask](https://caskroom.github.io) command line
   software:
+    - [Alacritty](https://github.com/alacritty/alacritty)
     - [App Cleaner](http://www.freemacsoft.net/appcleaner)
     - [Atom](https://atom.io/)
     - [ClipGrab](https://clipgrab.org)

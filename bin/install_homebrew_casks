@@ -2,8 +2,11 @@
 
 # Installs Homebrew Casks.
 
+brew cask install alacritty
 brew cask install appcleaner
 brew cask install atom
+brew tap homebrew/cask-fonts
+brew cask install font-hack-nerd-font
 brew cask install clipgrab
 brew cask install cmake
 brew cask install dash
@@ -17,7 +20,7 @@ brew cask install handbrake
 brew cask install iterm2
 brew cask install mactex
 brew cask install macvim
-brew cask install mendeley
+brew cask install mendeley-desktop
 brew cask install numi
 brew cask install onyx
 brew cask install qlstephen

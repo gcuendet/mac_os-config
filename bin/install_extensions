@@ -2,7 +2,7 @@
 
 # Installs application extensions.
 
-intasll_git_app "$CSL_REPO_UTL" "$CSL_INSTALL_PATH"
+install_git_app "$CSL_REPO_UTL" "$CSL_INSTALL_PATH"
 install_git_app "$VIM_AIRLINE_EXTENSION_URL" "$VIM_AIRLINE_EXTENSION_PATH"
 install_git_app "$VIM_COMMENTARY_EXTENSION_URL" "$VIM_COMMENTARY_EXTENSION_PATH"
 install_git_app "$VIM_FUGITIVE_EXTENSION_URL" "$VIM_FUGITIVE_EXTENSION_PATH"
